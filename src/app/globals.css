@@ -14,8 +14,8 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: black;
+    --foreground: white;
   }
 }
 
@@ -23,4 +23,92 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.fading{
+  opacity: 0;
+  animation: fading 3s ease-in-out infinite;
+}
+
+@keyframes fading {
+  from { opacity: 0; }
+  to { opacity: 100; }
+}
+
+
+
+.pricing .container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    padding-top: 5vw;
+}
+
+.pricing .container .box1 {
+    width: 33.33%;
+    padding: .25vw 0vw 0vw .25vw;
+    border-radius: 24px;
+    background: linear-gradient(142.22deg, #FFFFFF 2.26%, #991b1b 2.27%, rgba(0, 0, 0, 0) 52.43%);
+
+}
+
+.pricing .container .box2 {
+    width: 33.33%;
+    padding: 0vw 0vw 0.25vw 0.25vw;
+    border-radius: 24px;
+    background: linear-gradient(20.56deg, #991b1b 2.26%, rgba(0, 0, 0, 0) 52.43%);
+    
+}
+
+.pricing .container .box3 {
+    width: 33.33%;
+    padding: .25vw 0.25vw 0vw 0vw;
+    border-radius: 24px;
+    background: linear-gradient(217.78deg, #991b1b 2.26%, rgba(0, 0, 0, 0) 52.43%);
+}
+
+.pricing .container .box .bg {
+    background: #201D20;
+    padding: 1vw;
+    border-radius: 24px;
+}
+
+.pricing .container .box .price-box {
+    width: 100%;
+    background: linear-gradient(123.89deg, #242424 5.28%, #000000 111.77%);
+    border-radius: 19px;
+    text-align: center;
+    padding: 4vw 0;
+}
+
+.pricing .container .box .price-box h2,h3 {
+    line-height: 130%;
+}
+
+.plane {
+  position: absolute; /* so 'top' works */
+  top: 550px;
+  opacity: 0;
+  animation: planeMove 3s ease-in-out infinite; 
+}
+
+@keyframes planeMove {
+  from {
+    top: 550px;
+    opacity: 0;
+  }
+  to {
+    top: 100px;
+    opacity: 1; /* 1 = fully visible */
+  }
+}
+
+.weekbg{
+    background: linear-gradient(340.89deg, #242424 9.28%, #000000 111.77%);
+}
+
+.join {
+  background: linear-gradient(to bottom, #7f1d1d 0%, transparent 100%);
+
 }
