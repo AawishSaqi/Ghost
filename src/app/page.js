@@ -77,7 +77,7 @@ export default function Home() {
               <h1 className="text-[2.9vw] font-extrabold">About Us</h1>
             </div>
             <p className="justify-center leading-5 text-center">Stepping into the digital landscape, Ghost (BOO) stands as a unique proposition. 
-                We're not merely a crypto token; we are a key to pioneering technology. Ghost Sniper
+                We&apos;re not merely a crypto token; we are a key to pioneering technology. Ghost Sniper
                 Bot, exclusively accessible to Ghost (BOO) holders, enables you to be at the forefront
                   of newly deployed projects.</p>
           </div>
