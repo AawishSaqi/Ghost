@@ -62,7 +62,7 @@ export default function Home() {
       </div>
       {/* ///////////////////main/////////////////////////////// */}
       <div id='menu' className="flex max-[600px]:flex-col max-[600px]:h-full flex-row w-[100%] max-[600px]:justify-center max-[600px]:items-center justify-end max-[600px]:px-0 xl:px-[10%] md:px-[8%] px-[10%] h-100 md:h-auto">
-        <div className="fading xl:w-210 lg:w-160  md:w-130  w-100  max-[600px]:ml-15 max-[600px]:h-max   h-screen absolute max-[600px]:static left-1 xl:left-0 " >
+        <div className="fading xl:w-210 lg:w-160  md:w-130  w-100  max-[600px]:w-[100%] max-[600px]:h-max   h-screen absolute max-[600px]:static left-1 xl:left-0 " >
           <img alt="img" className="xl:w-[100%]" src="/images/ghostt.png"/>
         </div>
         <div className=" max-[600px]:h-max max-[600px]:pt-0 max-[600px]:pt-0 max-[600px]:px-18 max-[600px]:w-full max-[600px]:h-full
