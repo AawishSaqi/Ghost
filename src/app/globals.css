@@ -103,6 +103,27 @@ body {
     opacity: 1; /* 1 = fully visible */
   }
 }
+ @media (max-width:980px){
+  @keyframes planeMove {
+  from {
+    top: 450px;
+    opacity: 0;
+  }
+  to {
+    top: 0px;
+    opacity: 1; /* 1 = fully visible */
+  }
+}
+ }
+ @media(max-width:600){
+.plane {
+  position: static; /* so 'top' works */
+  top: 0;
+ 
+}
+ }
+
+
 
 .weekbg{
     background: linear-gradient(340.89deg, #242424 9.28%, #000000 111.77%);
@@ -112,3 +133,6 @@ body {
   background: linear-gradient(to bottom, #7f1d1d 0%, transparent 100%);
 
 }
+
+
+
